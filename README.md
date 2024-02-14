@@ -20,8 +20,8 @@ We created the auth service and routes; next we are creating the infrastructure 
 In the terminal cd to: /system_design/python/src/auth
 
 Common commands:
-python3 server.py - to run the server file
-mysql -uroot - to connect to mysql
-mysql -uroot < init.sql - to drop the sql configuration into mysql
-mysql -uroot -e "DROP DATABASE auth" - to drop the database if a change is needed in init.sql
-mysql -uroot -e "DROP USER auth_user@localhost" - to drop the auth user if a change is needed in init.sql
+- python3 server.py - to run the server file
+- mysql -uroot - to connect to mysql
+- mysql -uroot < init.sql - to drop the sql configuration into mysql
+- mysql -uroot -e "DROP DATABASE auth" - to drop the database if a change is needed in init.sql
+- mysql -uroot -e "DROP USER auth_user@localhost" - to drop the auth user if a change is needed in init.sql
